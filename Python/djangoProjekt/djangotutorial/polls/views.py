@@ -14,7 +14,7 @@ class IndexView(generic.ListView):
     context_object_name = "latest_question_list"
 
     def get_queryset(self):
-        
+
         return Question.objects.filter(
             pub_date__lte=timezone.now()
         ).order_by("-pub_date")[:5]
@@ -48,7 +48,7 @@ def vote(request, question_id):
             },
         )
     else:
-        selected_choice.votes = F("votes") + 1
+        selected_choice.votes =  F("votes") + 1
         selected_choice.save()
         return HttpResponseRedirect(
             reverse("polls:results", args=(question.id,))
