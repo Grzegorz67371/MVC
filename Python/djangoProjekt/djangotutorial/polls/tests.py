@@ -36,12 +36,14 @@ def create_question(question_text, days):
 class QuestionIndexViewTests(TestCase):
 
     def test_no_questions(self):
+
         response = self.client.get(reverse("polls:index"))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "No polls are available.")
         self.assertQuerySetEqual(response.context["latest_question_list"], [], transform=str)
 
     def test_past_question(self):
+
         create_question("Past question.", -30)
         response = self.client.get(reverse("polls:index"))
         self.assertQuerySetEqual(response.context["latest_question_list"], ["Past question."], transform=str)
