@@ -6128,11 +6128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Losiu\\Desktop\\studiaMVC\\Dotnet\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "C:\\Users\\Losiu\\Documents\\MVC\\Dotnet\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "C:\\Users\\Losiu\\Desktop\\studiaMVC\\Dotnet\\MvcMovie\\MvcMovie.csproj",
+      "projectPath": "C:\\Users\\Losiu\\Documents\\MVC\\Dotnet\\MvcMovie\\MvcMovie.csproj",
       "packagesPath": "C:\\Users\\Losiu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Losiu\\Desktop\\studiaMVC\\Dotnet\\MvcMovie\\obj\\",
+      "outputPath": "C:\\Users\\Losiu\\Documents\\MVC\\Dotnet\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
