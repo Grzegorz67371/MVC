@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0wLsS25ZIa0=",
+  "dgSpecHash": "+0CeT5IA7Uc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Losiu\\Desktop\\studiaMVC\\Dotnet\\MvcMovie\\MvcMovie.csproj",
+  "projectFilePath": "C:\\Users\\Losiu\\Documents\\MVC\\Dotnet\\MvcMovie\\MvcMovie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Losiu\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Losiu\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

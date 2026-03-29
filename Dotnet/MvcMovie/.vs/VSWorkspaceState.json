@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Controllers",
-    "\\Views",
-    "\\Views\\HelloWorld",
-    "\\Views\\Movies"
+    "\\Data",
+    "\\Models",
+    "\\Views"
   ],
-  "SelectedNode": "\\Views\\Movies\\Edit.cshtml",
+  "SelectedNode": "\\Controllers\\MoviesController.cs",
   "PreviewInSolutionExplorer": false
 }
