@@ -1,0 +1,40 @@
+@model List<Wypozyczenie>
+@{
+    ViewData["Title"] = "Wypożyczenia";
+}
+
+<h1>Wypożyczenia</h1>
+
+<a asp-action="Create" class="btn-dodaj">+ Dodaj wypożyczenie</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>Książka</th>
+            <th>Czytelnik</th>
+            <th>Data wypożyczenia</th>
+            <th>Data zwrotu</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var w in Model)
+        {
+            <tr>
+                <td>@w.Ksiazka?.Tytul</td>
+                <td>@w.Czytelnik</td>
+                <td>@w.DataWypozyczenia.ToShortDateString()</td>
+                <td>@(w.DataZwrotu.HasValue ? w.DataZwrotu.Value.ToShortDateString() : "-")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@w.Id">Edytuj</a>
+                    <a asp-action="Delete" asp-route-id="@w.Id">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.Count == 0)
+{
+    <p>Brak wypożyczeń.</p>
+}
