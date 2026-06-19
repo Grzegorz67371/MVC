@@ -1,0 +1,36 @@
+@model Wypozyczenie
+@{
+    ViewData["Title"] = "Edytuj wypożyczenie";
+}
+
+<h1>Edytuj wypożyczenie</h1>
+
+<form asp-action="Edit" method="post" class="formularz">
+    <div asp-validation-summary="All" class="bledy"></div>
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="pole">
+        <label asp-for="KsiazkaId"></label>
+        <select asp-for="KsiazkaId" asp-items="ViewBag.Ksiazki"></select>
+    </div>
+
+    <div class="pole">
+        <label asp-for="Czytelnik"></label>
+        <input asp-for="Czytelnik" />
+        <span asp-validation-for="Czytelnik"></span>
+    </div>
+
+    <div class="pole">
+        <label asp-for="DataWypozyczenia"></label>
+        <input asp-for="DataWypozyczenia" type="date" />
+    </div>
+
+    <div class="pole">
+        <label asp-for="DataZwrotu"></label>
+        <input asp-for="DataZwrotu" type="date" />
+    </div>
+
+    <button type="submit">Zapisz zmiany</button>
+    <a asp-action="Index" class="btn-szary">Anuluj</a>
+</form>

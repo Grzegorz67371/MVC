@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Strona główna";
+}
+
+<h1>Cyfrowa Biblioteka</h1>
+<p>Prosta aplikacja MVC do zarządzania książkami, autorami i wypożyczeniami.</p>
+
+<div class="kafelki">
+    <a class="kafelek" asp-controller="Ksiazki" asp-action="Index">
+        <h3>Książki</h3>
+        <p>Przeglądaj, dodawaj i edytuj książki w bibliotece.</p>
+    </a>
+    <a class="kafelek" asp-controller="Autorzy" asp-action="Index">
+        <h3>Autorzy</h3>
+        <p>Lista autorów dostępnych w systemie.</p>
+    </a>
+    <a class="kafelek" asp-controller="Wypozyczenia" asp-action="Index">
+        <h3>Wypożyczenia</h3>
+        <p>Sprawdź kto i kiedy wypożyczył książkę.</p>
+    </a>
+</div>

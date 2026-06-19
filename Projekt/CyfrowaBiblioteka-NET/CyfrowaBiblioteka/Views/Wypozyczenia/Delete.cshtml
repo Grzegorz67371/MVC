@@ -1,0 +1,15 @@
+@model Wypozyczenie
+@{
+    ViewData["Title"] = "Usuń wypożyczenie";
+}
+
+<h1>Usuń wypożyczenie</h1>
+
+<p>Czy na pewno chcesz usunąć wypożyczenie książki
+   <strong>@Model.Ksiazka?.Tytul</strong> przez <strong>@Model.Czytelnik</strong>?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn-usun">Tak, usuń</button>
+    <a asp-action="Index" class="btn-szary">Anuluj</a>
+</form>
