@@ -1,0 +1,32 @@
+@model Ksiazka
+@{
+    ViewData["Title"] = "Edytuj książkę";
+}
+
+<h1>Edytuj książkę</h1>
+
+<form asp-action="Edit" method="post" class="formularz">
+    <div asp-validation-summary="All" class="bledy"></div>
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="pole">
+        <label asp-for="Tytul"></label>
+        <input asp-for="Tytul" />
+        <span asp-validation-for="Tytul"></span>
+    </div>
+
+    <div class="pole">
+        <label asp-for="RokWydania"></label>
+        <input asp-for="RokWydania" />
+        <span asp-validation-for="RokWydania"></span>
+    </div>
+
+    <div class="pole">
+        <label asp-for="AutorId"></label>
+        <select asp-for="AutorId" asp-items="ViewBag.Autorzy"></select>
+    </div>
+
+    <button type="submit">Zapisz zmiany</button>
+    <a asp-action="Index" class="btn-szary">Anuluj</a>
+</form>

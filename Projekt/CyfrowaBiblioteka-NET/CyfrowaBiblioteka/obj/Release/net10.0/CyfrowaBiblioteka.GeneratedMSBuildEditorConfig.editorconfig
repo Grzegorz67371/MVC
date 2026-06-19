@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.EntryPointFilePath = 
+build_property.RootNamespace = CyfrowaBiblioteka
+build_property.RootNamespace = CyfrowaBiblioteka
+build_property.ProjectDir = C:\Users\Losiu\Documents\MVC\Projekt\CyfrowaBiblioteka-NET\CyfrowaBiblioteka\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Losiu\Documents\MVC\Projekt\CyfrowaBiblioteka-NET\CyfrowaBiblioteka
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Autorzy/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3J6eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Autorzy/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3J6eVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Autorzy/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3J6eVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Autorzy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3J6eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Ksiazki/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Ksiazki/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Ksiazki/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Ksiazki/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Ksiazki/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Wypozyczenia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lwb3p5Y3plbmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Wypozyczenia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lwb3p5Y3plbmlhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Wypozyczenia/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lwb3p5Y3plbmlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/Wypozyczenia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lwb3p5Y3plbmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Losiu/Documents/MVC/Projekt/CyfrowaBiblioteka-NET/CyfrowaBiblioteka/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

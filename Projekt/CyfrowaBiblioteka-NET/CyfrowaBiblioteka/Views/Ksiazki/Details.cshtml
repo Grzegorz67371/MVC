@@ -1,0 +1,41 @@
+@model Ksiazka
+@{
+    ViewData["Title"] = "Szczegóły książki";
+}
+
+<h1>@Model.Tytul</h1>
+
+<div class="szczegoly">
+    <p><strong>Autor:</strong> @Model.Autor?.ImieNazwisko</p>
+    <p><strong>Rok wydania:</strong> @Model.RokWydania</p>
+</div>
+
+<h3>Historia wypożyczeń</h3>
+@if (Model.Wypozyczenia.Count > 0)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Czytelnik</th>
+                <th>Data wypożyczenia</th>
+                <th>Data zwrotu</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var w in Model.Wypozyczenia)
+            {
+                <tr>
+                    <td>@w.Czytelnik</td>
+                    <td>@w.DataWypozyczenia.ToShortDateString()</td>
+                    <td>@(w.DataZwrotu.HasValue ? w.DataZwrotu.Value.ToShortDateString() : "jeszcze nie zwrócono")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Ta książka nie była jeszcze wypożyczana.</p>
+}
+
+<a asp-action="Index" class="btn-szary">Powrót do listy</a>
