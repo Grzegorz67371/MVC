@@ -1,0 +1,19 @@
+@model Autor
+@{
+    ViewData["Title"] = "Dodaj autora";
+}
+
+<h1>Dodaj autora</h1>
+
+<form asp-action="Create" method="post" class="formularz">
+    <div asp-validation-summary="All" class="bledy"></div>
+
+    <div class="pole">
+        <label asp-for="ImieNazwisko"></label>
+        <input asp-for="ImieNazwisko" />
+        <span asp-validation-for="ImieNazwisko"></span>
+    </div>
+
+    <button type="submit">Zapisz</button>
+    <a asp-action="Index" class="btn-szary">Anuluj</a>
+</form>

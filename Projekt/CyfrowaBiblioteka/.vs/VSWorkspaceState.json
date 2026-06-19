@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Models",
+    "\\Views",
+    "\\Views\\Autorzy",
+    "\\Views\\Ksiazki",
+    "\\Views\\Shared",
+    "\\wwwroot",
+    "\\wwwroot\\css",
+    "\\{Models,Data,Controllers,Views\\Shared,Views",
+    "\\{Models,Data,Controllers,Views\\Shared,Views\\Home,Views"
+  ],
+  "SelectedNode": "\\CyfrowaBiblioteka.csproj",
+  "PreviewInSolutionExplorer": false
+}

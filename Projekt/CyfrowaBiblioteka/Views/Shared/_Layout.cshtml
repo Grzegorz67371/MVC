@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Cyfrowa Biblioteka</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" asp-controller="Home" asp-action="Index">Cyfrowa Biblioteka</a>
+            <a asp-controller="Ksiazki" asp-action="Index">Książki</a>
+            <a asp-controller="Autorzy" asp-action="Index">Autorzy</a>
+            <a asp-controller="Wypozyczenia" asp-action="Index">Wypożyczenia</a>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer>
+        <p>Projekt zaliczeniowy MVC &copy; @DateTime.Now.Year</p>
+    </footer>
+</body>
+</html>
